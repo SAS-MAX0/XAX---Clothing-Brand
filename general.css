@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 40px;
+    color: #222;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 25px;
+    color: #222;
+}
+
+h6 {
+font-weight: 700;
+font-size: 20px;
+color: #002fff;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+
+body {
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 90px;
+    background: #e3e6f3;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover{
+    color: #002fff;
+    
+}
+
+#cloth {
+    background-color: #e3e6f3;
+    background-image: url("images/promo.png");
+    height: 350px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:contain;
+    background-position: top 25% right 5% ;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    border:none;
+}
+
+#cloth h4{
+    padding-bottom: 0px;
+}
+
+#cloth h1{
+    color: #002fff;
+}
+
+#cloth button{
+    padding: 10px 10px;
+}
+
+
+.section-p1 {
+    padding: 40px 20px;
+    text-align:center;
+}
+
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#feature .q{
+    width: calc(25%   170px);
+    height: auto ;
+    text-align:center;
+    padding: 5px 5px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin: 20px;
+    align-items: center;
+    text-decoration-line: none;
+    
+    
+}
+#feature .q:hover{
+    box-shadow: 10px 10px 54px rgba(78, 62, 221, 0.1);
+}
+#feature img{
+    height: 135px;
+    width: 140px;
+
+}
+
+#feature .q h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #002fff;
+    background-color: #ffffff;
+
+    
+}
+
+.product-table {
+    width: 20PX;
+    height: 0PX;
+    align-self: center;
+    padding-left: 75px;
+}
+
+.product-table td {
+    padding: 10px;
+    padding-bottom: 40px;
+    border: none; 
+}
+
+.product-table .q {
+    
+    background-color: transparent; 
+    
+}
+
+.product-table .q img {
+    width:  95PX;
+    height: 295PX;
+    
+}
+
+.product-table .q h6 {
+    line-height: 1;
+    border-radius: 4px;
+    color: #002fff;
+    background-color: #ffffff; 
+    text-align: center;
+    
+}
+
+.footer{
+    margin-top: auto;
+    width: 100%;
+    padding: 10px 15%;
+    background-color: #e3e6f3;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+
+}
+.footer div{
+    text-align: center;
+    margin: 25px    ;
+}
+.col2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.col1 a:hover {
+    color: #002fff; 
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+button{
+    background: transparent;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* Your existing CSS */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #1a1a1a;
+    text-decoration: none;
+    margin-right: 15px; /* Adjust spacing between icons */
+    font-size: 24px; /* Adjust the size of the icons */
+    transition: color 0.3s; /* Add transition effect for color change */
+}
+
+.social-icons a:hover {
+    color: #002fff; /* Change color on hover */
+}
+
+/* COMING SOON */
+#coming-soon {
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #e3e6f3;
+    color: #1a1a1a;
+    padding: 0 20px;
+}
+
+#coming-soon h1 {
+    font-size: 60px;
+    color: #002fff;
+    margin-bottom: 20px;
+}
+
+#coming-soon p {
+    font-size: 20px;
+    color: #465b52;
+    max-width: 600px;
+}
+
+
+.col1 a {
+    display: block;
+    text-decoration: none;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.col1 a:hover {
+    color: #002fff;
+}
